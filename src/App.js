@@ -9,6 +9,7 @@ import Profile from "./pages/Profile/Profile";
 import CompanyList from "./pages/Company/CompanyList";
 import Company from "./pages/Company/Company";
 import Login from "./pages/Login/Login";
+import NewEmployee from "./pages/Employee/NewEmployee";
 import ForgotPassword from "./pages/ForgotPassword/ForgotPassword";
 import { PrivateRoute } from "./routes/PrivateRoute";
 import { NotFound } from "./components/NotFound";
@@ -40,6 +41,7 @@ function App() {
               <Route path="/profile" element={<Profile />} />
               <Route path="/companylist" element={<CompanyList />} />
               <Route path="/newmanager" element={<CompanyManager />} />
+              <Route path="/newemployee" element={<NewEmployee />} />
             </Route>
           )}
           <Route path="*" exact={true} element={<NotFound />} />

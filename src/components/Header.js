@@ -30,8 +30,13 @@ export const Header = () => {
         <a href="/home" className="logo">
           <img src="assets/img/boost.png" alt="Logo" />
         </a>
-        <a href="index.html" className="logo logo-small">
-          
+        <a href="/home" className="logo logo-small">
+        <img
+            src="assets/img/boost.png"
+            alt="Logo"
+            width="30"
+            height="30"
+          />
         </a>
         <a href="javascript:void(0);" id="toggle_btn">
           <span className="bar-icon">

@@ -74,6 +74,12 @@ export const Sidebar = () => {
                   <span>New Manager</span>
                 </a>
               </li>
+              <li>
+                <a href="/newemployee">
+                  <img src="assets/img/report.svg" alt="sidebar_img" />{" "}
+                  <span>New Employee</span>
+                </a>
+              </li>
               
               
               
